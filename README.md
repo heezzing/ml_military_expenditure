@@ -10,17 +10,22 @@ Project2 : 국가별 국방비 예측 모델
 
 - 예측하고자 하는 변수
 
-    - target : 국방비
+    - target : 국방비(M_USD)
+    - feature : M_of_gov,M_of_GDP
 
   - 그 이유 : 국방비를 보면 그 군대의 규모를 알 수 있어서.
 
 - 베이스라인 모델
 
-    - 선형회귀를 사용할것이다.
+    - 단순선형회귀모델.
 
-- 이유 : 국방비의 규모를 알고 싶은거라 회귀가 맞다고 생각했다.
+    - 이유 : 국방비 규모라 분류보단 회귀가 맞다고 생각하여 회귀를 선택함.
 
 
 - 평가지표 선택
 
     - 회귀 평가지표(evaluation metrics): MAE,MSE,RMSE,R^2
+
+- 데이터 출처
+
+    - Kaggle : https://www.kaggle.com/datasets/prasertk/military-expenditure-by-country-from-19702020  
