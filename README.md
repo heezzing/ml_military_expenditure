@@ -8,24 +8,24 @@ Project2 : 국가별 국방비 예측 모델
 2. 데이터를 이용한 가설 및 평가지표, 베이스라인 선택*  
 - 가설 : gdp대비 국방비 비율과 국가지출 대비 국방비 비율이 국방비의 규모에 크게 영향을 미치고 있다.
 
-- 예측하고자 하는 변수
+  - 예측하고자 하는 변수
 
     - target : 국방비(M_USD)
     - feature : M_of_gov,M_of_GDP
 
   - 그 이유 : 국방비를 보면 그 군대의 규모를 알 수 있어서.
 
-- 베이스라인 모델
+  - 베이스라인 모델
 
     - 단순선형회귀모델.
 
     - 이유 : 국방비 규모라 분류보단 회귀가 맞다고 생각하여 회귀를 선택함.
 
 
-- 평가지표 선택
+  - 평가지표 선택
 
     - 회귀 평가지표(evaluation metrics): MAE,MSE,RMSE,R^2
 
-- 데이터 출처
+3. 데이터 출처
 
     - Kaggle : https://www.kaggle.com/datasets/prasertk/military-expenditure-by-country-from-19702020  
