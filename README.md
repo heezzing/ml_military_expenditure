@@ -32,4 +32,4 @@ Project2 : 국가별 국방비 예측 모델
 
 4. 발표영상 링크
 
-      - https://youtu.be/zvVHcPlQEOk
+      - Youtube : https://youtu.be/zvVHcPlQEOk
