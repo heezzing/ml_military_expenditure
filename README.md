@@ -29,3 +29,7 @@ Project2 : 국가별 국방비 예측 모델
 3. 데이터 출처
 
     - Kaggle : https://www.kaggle.com/datasets/prasertk/military-expenditure-by-country-from-19702020  
+
+4. 발표영상 링크
+
+      - https://youtu.be/zvVHcPlQEOk
