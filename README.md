@@ -19,3 +19,5 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 - 기여 내용 : 주제도출, 스토리텔링, 데이터 분석, 발표자료
 - 종속변수 : M_USD
 - 독립변수 : **M_of_gov,M_of_GDP**
+
+#프로젝트 내용#
