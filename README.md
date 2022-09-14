@@ -38,7 +38,7 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 - pandas를 이용하여 데이터 전처리를 해주었습니다.
     - 결츨값 처리,불필요한 컬럼 처리
 
-- 단순선형회귀(베이스 모델)
+### 단순선형회귀(베이스 모델)
 <img width="700" alt="스크린샷 2022-09-14 오후 3 13 50" src="https://user-images.githubusercontent.com/97447841/190074002-d8eca87a-2b7b-415e-ba26-01961c4f4743.png">
 
 - 베이스라인을 회귀로 잡고 선형회귀를 이용하였고 평가지표는 mse,rmse,mae,R^2를 이용하였습니다.
@@ -46,13 +46,13 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 - 오른쪽은 정부지출 대비 비율(M_of_gov)과 국방비규모(USD)의 선형회귀선입니다.
 - 왼쪽의 그래프 기울기와 R^2값이 더 크므로 GDP대비 국방비 비율이 정부지출 대비 국방비 비율보다 국방비에 더 영향을 미치는걸 알 수 있습니다.
 
-- 다중선형회귀
+### 다중선형회귀
 <img width="700" alt="스크린샷 2022-09-14 오후 3 22 08" src="https://user-images.githubusercontent.com/97447841/190075427-552b723e-af67-443b-b392-524303f56af3.png">
 
 - 다중선형회귀모델의 R^2값이 단순선형회귀 모델보다 더 높은걸 알 수 있습니다.
 - 하나의 특성을 사용한 단순선형회귀보다  테스트 오류가 더 줄어든걸 알 수 있습니다.
 
-- 결정트리 ( DecisionTreeRegresor)
+### 결정트리 ( DecisionTreeRegresor)
 <img width="700" alt="스크린샷 2022-09-14 오후 3 24 13" src="https://user-images.githubusercontent.com/97447841/190075756-d4b8c7aa-87f9-4200-b460-367ebf151662.png">
 <img width="700" alt="스크린샷 2022-09-14 오후 3 24 34" src="https://user-images.githubusercontent.com/97447841/190075815-26ac05e0-ec15-4849-a3f9-ba8b0e95ff19.png">
 
@@ -62,7 +62,7 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 - DecisionTreeRegresor가 단순선형회귀모델에 비해 정확도가 낮은걸 알 수 있습니다.
 - 특성중요도 확인을 해보니 GDP 대비 국방비 비율(M_of_GDP)이 국가지출 대비 국방비 비율(M_of_gov)보다 국방비에 더 영향을 미치는걸 알 수 있습니다.
 
-- 랜덤포레스트(RandomForestRegressor)
+### 랜덤포레스트(RandomForestRegressor)
 - <img width="700" alt="스크린샷 2022-09-14 오후 3 25 15" src="https://user-images.githubusercontent.com/97447841/190075933-0dd604a3-d10d-48e4-85a1-7e0ec3544e93.png">
 
 - 랜덤포레스트 : 훈련과정에서 구성한 다수의 결정트리로부터 분류,평균 예측치를 출력합니다.
@@ -70,28 +70,28 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 - 훈련 정확도가 테스트 데이터 정확도보다 높은걸 보면 이상치(미국의 데이터) 때문에 정확도가 낮다고 생각합니다.
 - RandomForestRegressor가 단순선형회귀모델에 비해 정확도가 낮은걸 알 수 있습니다.
 
-- 하이퍼파라미터 튜닝
+### 하이퍼파라미터 튜닝
 <img width="700" alt="스크린샷 2022-09-14 오후 3 26 01" src="https://user-images.githubusercontent.com/97447841/190076076-3a98b7fa-87a8-40aa-af7a-ef12647acb78.png">
 
 - 하이퍼파라미터 튜닝 : 모델의 성능을 확보하기 위해 조절하는 주요 설정값입니다.
 - 하이퍼파라미터 튜닝을 이용한 모델의 회귀값 R^2는 0~1 사이의 값으로 표현되는데 -1.3 이므로 성능이 아주낮은 비정상적인 모델입니다.
 - 오른쪽 모델을 보아도 실제값을 잘 예측하지 못하는걸 알 수 있습니다.
 
-- 머신러닝 모델 해석 (PDP)
+### 머신러닝 모델 해석 (PDP)
 <img width="700" alt="스크린샷 2022-09-14 오후 3 26 49" src="https://user-images.githubusercontent.com/97447841/190076209-874ab3ac-5741-49ac-a00c-1b2ebfd551e7.png">
 
 - PDP :  모델의 예측값이 특정 피쳐의 변화에 따라 평균적으로 어떻게 변화하는지 보여줍니다.
 - PDP를 이용하여 그래프를 확인해 보니 변화가 매우 불규칙적입니다.
 - 값을 예측하기 힘든 모델인걸 알 수 있습니다.
 
-- 머신러닝 모델 해석 (SHAP)
+### 머신러닝 모델 해석 (SHAP)
 <img width="700" alt="스크린샷 2022-09-14 오후 3 27 42" src="https://user-images.githubusercontent.com/97447841/190076352-e9fb9523-67c4-4f4b-b4ae-365d959e580b.png">
 
 - SHAP : 특정 데이터에 대해 모델의 예측값에 각 지표들이 얼마나 기여하는지 보여줍니다.
 - Shap value가 커야 예측값에 영향을 많이 줍니다.
 - value 분포가 작으므로 예측값에 영향을 작게 주는걸 알 수 있습니다.
 
-- 종합 결론
+### 종합 결론
 <img width="700" alt="스크린샷 2022-09-14 오후 3 32 54" src="https://user-images.githubusercontent.com/97447841/190077317-f68a5184-68d9-453b-b1d5-0c2347676a4c.png">
 
 - 결론
