@@ -71,28 +71,28 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 - RandomForestRegressor가 단순선형회귀모델에 비해 정확도가 낮은걸 알 수 있습니다.
 
 - 하이퍼파라미터 튜닝
-<img width="766" alt="스크린샷 2022-09-14 오후 3 26 01" src="https://user-images.githubusercontent.com/97447841/190076076-3a98b7fa-87a8-40aa-af7a-ef12647acb78.png">
+<img width="700" alt="스크린샷 2022-09-14 오후 3 26 01" src="https://user-images.githubusercontent.com/97447841/190076076-3a98b7fa-87a8-40aa-af7a-ef12647acb78.png">
 
 - 하이퍼파라미터 튜닝 : 모델의 성능을 확보하기 위해 조절하는 주요 설정값입니다.
 - 하이퍼파라미터 튜닝을 이용한 모델의 회귀값 R^2는 0~1 사이의 값으로 표현되는데 -1.3 이므로 성능이 아주낮은 비정상적인 모델입니다.
 - 오른쪽 모델을 보아도 실제값을 잘 예측하지 못하는걸 알 수 있습니다.
 
 - 머신러닝 모델 해석 (PDP)
-<img width="766" alt="스크린샷 2022-09-14 오후 3 26 49" src="https://user-images.githubusercontent.com/97447841/190076209-874ab3ac-5741-49ac-a00c-1b2ebfd551e7.png">
+<img width="700" alt="스크린샷 2022-09-14 오후 3 26 49" src="https://user-images.githubusercontent.com/97447841/190076209-874ab3ac-5741-49ac-a00c-1b2ebfd551e7.png">
 
 - PDP :  모델의 예측값이 특정 피쳐의 변화에 따라 평균적으로 어떻게 변화하는지 보여줍니다.
 - PDP를 이용하여 그래프를 확인해 보니 변화가 매우 불규칙적입니다.
 - 값을 예측하기 힘든 모델인걸 알 수 있습니다.
 
 - 머신러닝 모델 해석 (SHAP)
-<img width="766" alt="스크린샷 2022-09-14 오후 3 27 42" src="https://user-images.githubusercontent.com/97447841/190076352-e9fb9523-67c4-4f4b-b4ae-365d959e580b.png">
+<img width="700" alt="스크린샷 2022-09-14 오후 3 27 42" src="https://user-images.githubusercontent.com/97447841/190076352-e9fb9523-67c4-4f4b-b4ae-365d959e580b.png">
 
 - SHAP : 특정 데이터에 대해 모델의 예측값에 각 지표들이 얼마나 기여하는지 보여줍니다.
 - Shap value가 커야 예측값에 영향을 많이 줍니다.
 - value 분포가 작으므로 예측값에 영향을 작게 주는걸 알 수 있습니다.
 
 - 종합 결론
-<img width="766" alt="스크린샷 2022-09-14 오후 3 32 54" src="https://user-images.githubusercontent.com/97447841/190077317-f68a5184-68d9-453b-b1d5-0c2347676a4c.png">
+<img width="700" alt="스크린샷 2022-09-14 오후 3 32 54" src="https://user-images.githubusercontent.com/97447841/190077317-f68a5184-68d9-453b-b1d5-0c2347676a4c.png">
 
 - 결론
     - GDP 대비 국방비 비율(M_of_GDP)과 국가 지출 대비 국방비 비율(M_of_gov)은 국방비에 큰 영향을 주지않습니다.
