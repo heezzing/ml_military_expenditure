@@ -1,3 +1,5 @@
+<img width="500" alt="스크린샷 2022-09-14 오후 3 09 49" src="https://user-images.githubusercontent.com/97447841/190073314-b827ea68-d503-4b9c-b803-97aa514f3723.png">
+
 Date : 2022.3.17~2022.3.22
 
 Tags : `sklearn` `Regression` 
@@ -5,8 +7,6 @@ Tags : `sklearn` `Regression`
 Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Project2.git) 
 
 발표영상 : [https://youtu.be/zvVHcPlQEOk](https://youtu.be/zvVHcPlQEOk)
-
-<img width="766" alt="스크린샷 2022-09-14 오후 3 09 49" src="https://user-images.githubusercontent.com/97447841/190073314-b827ea68-d503-4b9c-b803-97aa514f3723.png">
 
 ## 개요
 
