@@ -6,7 +6,7 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 
 발표영상 : [https://youtu.be/zvVHcPlQEOk](https://youtu.be/zvVHcPlQEOk)
 
-#개요
+# 개요
 
 - 주제 : 국방비 예측 데이터 (나라별 군사비 규모를 예측하기 위해 선정)
 - 베이스라인 : 단순선형회귀
@@ -20,4 +20,4 @@ Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Pr
 - 종속변수 : M_USD
 - 독립변수 : **M_of_gov,M_of_GDP**
 
-#프로젝트 내용
+# 프로젝트 내용
