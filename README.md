@@ -1,4 +1,4 @@
-<img width="500" alt="스크린샷 2022-09-14 오후 3 09 49" src="https://user-images.githubusercontent.com/97447841/190073314-b827ea68-d503-4b9c-b803-97aa514f3723.png">
+<img width="700" alt="스크린샷 2022-09-14 오후 3 09 49" src="https://user-images.githubusercontent.com/97447841/190073314-b827ea68-d503-4b9c-b803-97aa514f3723.png">
 
 Date : 2022.3.17~2022.3.22
 
