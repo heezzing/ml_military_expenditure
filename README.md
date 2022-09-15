@@ -4,7 +4,7 @@ Date : 2022.3.17~2022.3.22
 
 Tags : `sklearn` `Regression` 
 
-Link : [https://github.com/heezzing/Project2.git](https://github.com/heezzing/Project2.git) 
+Link : [https://github.com/heezzing/project2.git](https://github.com/heezzing/project2.git) 
 
 발표영상 : [https://youtu.be/zvVHcPlQEOk](https://youtu.be/zvVHcPlQEOk)
 
